@@ -1,0 +1,12 @@
+.disabled-footer {
+	margin-bottom: 50px;
+	.site-footer {
+		padding: 0;
+		background-color: white;
+		border-top: none;
+		height: 50px;
+	}
+	.content-area {
+		margin-bottom: 15px;
+	}
+}

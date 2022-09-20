@@ -1,0 +1,4 @@
+AuthUserFile /usr/web/jaygrooters.com/html/webstats/.passwd
+AuthName jaygrooters.com
+AuthType Basic
+Require valid-user

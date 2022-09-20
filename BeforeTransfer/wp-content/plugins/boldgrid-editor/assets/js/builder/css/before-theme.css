@@ -1,0 +1,30 @@
+.row,
+.boldgrid-section,
+.boldgrid-is-typing .boldgrid-section:hover,
+[class*="col-xs"],
+[class*="col-sm"],
+[class*="col-md"],
+[class*="col-lg"],
+p,
+img,
+h1,
+h2,
+ol,
+ul,
+dl,
+form,
+table,
+h3,
+h4,
+h5,
+h6,
+[data-imhwpb-draggable="true"],
+.wpview-wrap,
+.wpview {
+  outline: 1px solid rgba(0,0,0,0);
+}
+
+hr {
+	margin-top:5px;
+	margin-bottom:5px;
+}

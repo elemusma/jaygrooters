@@ -1,0 +1,45 @@
+.drag-progress .draghandle {
+	display: none !important;
+}
+
+.draghandle {
+	z-index: 99998;
+	position: fixed;
+	cursor: ns-resize;
+	background-color: $menu-color;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0px 0px 4px -1px $menu-color;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 14px;
+    text-align: center;
+	line-height: 14px;
+    
+    &:hover {
+    	color: $hover-color;
+    }
+    
+	&.top:before {
+		content: "\f106";
+	}
+	&.bottom:before {
+		content: "\f107";
+	}
+}
+
+.changing-padding-top .draghandle.top,
+.changing-padding-bottom .draghandle.bottom {
+	color: $hover-color;
+}
+
+.changing-padding-top .draghandle.bottom {
+	display: none !important;
+}
+.changing-padding-bottom .draghandle.top {
+	display: none !important;
+}
+
+.changing-padding-bottom #boldgrid-draggable-resizing-overlay,
+.changing-padding-top #boldgrid-draggable-resizing-overlay {
+	cursor: ns-resize !important;
+}
